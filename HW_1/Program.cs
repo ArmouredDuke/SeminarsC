@@ -9,14 +9,15 @@ if (num1 > num2)
 {
     Console.WriteLine($"The number {num1} is greater than the number {num2}.");
 }
-if (num1 == num2) // Такого в задании нет, но тоже ведь возможный вариант...
-{
-    Console.WriteLine($"The number {num1} is equal to the number {num2}.");
-}
 if (num1 < num2)
 {
     Console.WriteLine($"The number {num1} is smoller than the number {num2}.");
 }
+if (num1 == num2)
+{    
+    Console.WriteLine($"The number {num1} is equal to the number {num2}.");
+}
+
 
 
 // Task 4. 
