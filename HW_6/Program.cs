@@ -1,6 +1,5 @@
 ﻿// Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
 
-
 int Prompt(string message)
 {
     System.Console.Write(message);
@@ -45,6 +44,7 @@ int[] arrey;
 arrey = InputArray(lenght);
 PrintArray(arrey);
 Console.WriteLine($"Количество чисел больше нуля - {CountPositiveNumbers(arrey)}");
+
 
 
 
