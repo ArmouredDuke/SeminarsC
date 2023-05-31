@@ -11,8 +11,8 @@ int Prompt(string message)
 
 int[] InputArray(int lenght)
 {
-    int arrey = new int[lenght];
-    for (int i = 0; i < arrey.lenght; i++)
+    int[] arrey = new int[lenght];
+    for (int i = 0; i < arrey.Lenght; i++)
     {
         arrey[i] = Prompt($"Введите {i + 1} элемент.");
     }
